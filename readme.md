@@ -1,3 +1,5 @@
+![license](https://img.shields.io/badge/license-MIT-blue.svg)
+[![author](https://img.shields.io/badge/author-FlanChanOwO-orange.svg)](https://www.cirno.asia)
 # expo-server-sdk-java
 
 A powerful and flexible Java SDK for Expo push notifications, designed for developers. Supports both sending
@@ -36,9 +38,6 @@ Add the dependency in your Maven project:
 1. Create the client
 
 ```java
-import io.github.flanchanxwo.ExpoPushNotificationClient;
-import org.apache.hc.client5.http.impl.classic.HttpClients;
-
 ExpoPushNotificationClient client = ExpoPushNotificationClient.builder()
         .setHttpClient(HttpClients.createDefault())
         .setAccessToken("your-access-token") // optional
@@ -48,26 +47,25 @@ ExpoPushNotificationClient client = ExpoPushNotificationClient.builder()
 2. Send a push notification
 
 ```java
-import io.github.flanchanxwo.request.PushNotification;
-
-import java.util.Arrays;
-
 PushNotification notification = new PushNotification(
         Arrays.asList("ExponentPushToken[xxxxxx]"),
         "Hello World!",
         "This is a test notification."
 );
 
-client.
+// You can also use the builder
+PushNotification notification = PushNotification.builder()
+        .to(Arrays.asList("ExponentPushToken[xxxxxx]"))
+        .title("Hello World!")
+        .body("This is a test notification.")
+        .build();
 
-sendPushNotifications(Arrays.asList(notification));
+client.sendPushNotifications(Arrays.asList(notification));
 ```
 
 3. Query push receipts
 
 ```java
-import java.util.Arrays;
-
 client.getPushNotificationReceipts(Arrays.asList("receipt-id-1", "receipt-id-2"));
 ```
 

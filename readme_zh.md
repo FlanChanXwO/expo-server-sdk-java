@@ -34,9 +34,6 @@ Maven 项目中添加依赖：
 1. 创建客户端
 
 ```java
-import io.github.flanchanxwo.ExpoPushNotificationClient;
-import org.apache.hc.client5.http.impl.classic.HttpClients;
-
 ExpoPushNotificationClient client = ExpoPushNotificationClient.builder()
         .setHttpClient(HttpClients.createDefault())
         .setAccessToken("your-access-token") // 可选
@@ -46,26 +43,25 @@ ExpoPushNotificationClient client = ExpoPushNotificationClient.builder()
 2. 发送推送通知
 
 ```java
-import io.github.flanchanxwo.request.PushNotification;
-
-import java.util.Arrays;
-
 PushNotification notification = new PushNotification(
         Arrays.asList("ExponentPushToken[xxxxxx]"),
         "Hello World!",
         "This is a test notification."
 );
 
-client.
+// 也可以使用构建器模式
+PushNotification notification = PushNotification.builder()
+        .to(Arrays.asList("ExponentPushToken[xxxxxx]"))
+        .title("Hello World!")
+        .body("This is a test notification.")
+        .build();
 
-sendPushNotifications(Arrays.asList(notification));
+client.sendPushNotifications(Arrays.asList(notification));
 ```
 
 3. 查询推送回执
 
 ```java
-import java.util.Arrays;
-
 client.getPushNotificationReceipts(Arrays.asList("receipt-id-1", "receipt-id-2"));
 ```
 
