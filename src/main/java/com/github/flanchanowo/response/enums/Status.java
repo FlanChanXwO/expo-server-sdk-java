@@ -1,4 +1,4 @@
-package com.github.flanchanowo.response;
+package com.github.flanchanowo.response.enums;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 
