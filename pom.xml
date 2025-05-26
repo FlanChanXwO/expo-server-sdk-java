@@ -6,7 +6,7 @@
 
     <groupId>io.github.flanchanxwo</groupId>
     <artifactId>expo-server-sdk-java</artifactId>
-    <version>0.1.0</version>
+    <version>0.1.1</version>
     <name>expo-server-sdk-java</name>
     <packaging>jar</packaging>
     <url>https://github.com/FlanChanXwO/expo-server-sdk-java</url>
