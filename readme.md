@@ -37,7 +37,7 @@ Add the dependency in your Maven project:
 </dependency>
 ```
 
-🚀 Quick Start
+## 🚀 Quick Start
 
 1. Create the client
 
