@@ -20,11 +20,10 @@
 Maven 项目中添加依赖：
 
 ```xml
-
 <dependency>
     <groupId>io.github.flanchanxwo</groupId>
     <artifactId>expo-server-sdk-java</artifactId>
-    <version>0.1.0</version>
+    <version>0.1.1</version>
 </dependency>
 ```
 

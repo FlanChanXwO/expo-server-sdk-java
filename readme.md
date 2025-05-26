@@ -25,11 +25,10 @@ notifications and querying receipts. Easy to integrate and extend.
 Add the dependency in your Maven project:
 
 ```xml
-
 <dependency>
     <groupId>io.github.flanchanxwo</groupId>
     <artifactId>expo-server-sdk-java</artifactId>
-    <version>0.1.0</version>
+    <version>0.1.1</version>
 </dependency>
 ```
 
