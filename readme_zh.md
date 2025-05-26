@@ -6,7 +6,11 @@
 
 ---
 
-✨ **特性**
+## 🌱 Spring Boot 集成
+- [expo-push-spring-boot-starter](https://github.com/FlanChanXwO/expo-push-spring-boot-starter)（适用于 Spring Boot 2.x）
+- [expo-push-spring-boot3-starter](https://github.com/FlanChanXwO/expo-push-spring-boot3-starter)（适用于 Spring Boot 3.x）
+
+## ✨ **特性**
 
 - 🚀 支持 Expo 官方推送 API，兼容最新接口
 - 🔒 安全的 HTTP 通信，基于 Apache HttpClient5

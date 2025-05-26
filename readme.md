@@ -9,7 +9,12 @@ notifications and querying receipts. Easy to integrate and extend.
 
 ---
 
-✨ **Features**
+## 🌱 Spring Boot Integration
+- [expo-push-spring-boot-starter](https://github.com/FlanChanXwO/expo-push-spring-boot-starter) (for Spring Boot 2.x)
+- [expo-push-spring-boot3-starter](https://github.com/FlanChanXwO/expo-push-spring-boot3-starter) (for Spring Boot 3.x)
+
+
+## ✨ **Features**
 
 - 🚀 Supports Expo official push API, compatible with the latest interfaces
 - 🔒 Secure HTTP communication using Apache HttpClient5
