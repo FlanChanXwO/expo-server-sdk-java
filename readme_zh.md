@@ -78,33 +78,30 @@ client.getPushNotificationReceipts(Arrays.asList("receipt-id-1", "receipt-id-2")
 
 <hr>
 
-🎨 特色功能
+## 🎨 特色功能
 
-错误处理：所有接口均抛出详细异常，便于定位问题
-日志输出：集成 SLF4J，支持自定义日志实现
-类型安全：基于 Jackson 自动序列化/反序列化
-
-<hr>
-
-🛠️ 进阶用法
-
-自定义 HTTP 客户端
-可传入自定义配置的 CloseableHttpClient，如设置代理、超时等。  
-自定义 API 地址
-支持自定义 baseUri，适配测试或代理环境。
+- 错误处理：所有接口均抛出详细异常，便于定位问题
+- 日志输出：集成 SLF4J，支持自定义日志实现
+- 类型安全：基于 Jackson 自动序列化/反序列化
 
 <hr>
 
-📋 支持的推送内容
+## 🛠️ 进阶用法
 
-标题、正文、数据 payload
-多设备批量推送
-自定义通知参数（如声音、优先级等）
+- 自定义 HTTP 客户端: 可传入自定义配置的 CloseableHttpClient，如设置代理、超时等。  
+- 自定义 API 地址: 支持自定义 baseUri，适配测试或代理环境。
 
 <hr>
 
-💡 使用建议
+## 📋 支持的推送内容
 
-使用该SDK前请先阅读 Expo 官方文档，了解推送通知的基本概念和要求。\
-https://docs.expo.dev/push-notifications/overview/ \
+- 标题、正文、数据 payload
+- 多设备批量推送
+- 自定义通知参数（如声音、优先级等）
+
+<hr>
+
+## 💡 使用建议
+
+使用该SDK前请先阅读 [Expo 官方文档](https://docs.expo.dev/push-notifications/overview/) ，了解推送通知的基本概念和要求。\
 生产环境请妥善管理 accessToken

@@ -76,26 +76,24 @@ client.getPushNotificationReceipts(Arrays.asList("receipt-id-1", "receipt-id-2")
 | httpClient  | CloseableHttpClient | CloseableHttpClient	Custom HTTP client                          |
 | accessToken | String              | Expo access token (optional)                                    |
 
-🎨 Highlighted Features
+## 🎨 Highlighted Features
 
-Error Handling: All APIs throw detailed exceptions for easier debugging
-Logging: Integrated with SLF4J; supports custom logging implementations
-Type Safety: Uses Jackson for automatic serialization/deserialization
+- Error Handling: All APIs throw detailed exceptions for easier debugging
+- Logging: Integrated with SLF4J; supports custom logging implementations
+- Type Safety: Uses Jackson for automatic serialization/deserialization
 
-🛠️ Advanced Usage
+## 🛠️ Advanced Usage
 
-Custom HTTP Client
-You can provide a custom-configured CloseableHttpClient (e.g., proxy, timeouts).
-Custom API Base URL
-You can customize the baseUri to fit test or proxy environments.
+- Custom HTTP Client: You can provide a custom-configured CloseableHttpClient (e.g., proxy, timeouts).
+- Custom API Base URL: You can customize the baseUri to fit test or proxy environments.
 
-📋 Supported Notification Content
+## 📋 Supported Notification Content
 
-Title, body, and data payload
-Batch push to multiple devices
-Custom notification parameters (e.g., sound, priority, etc.)
+- Title, body, and data payload
+- Batch push to multiple devices
+- Custom notification parameters (e.g., sound, priority, etc.)
 
-💡 Recommendations
+## 💡 Recommendations
 
-Before using this SDK, please read the official Expo documentation to understand the basics of push notifications.
+Before using this SDK, please read the official [Expo documentation](https://docs.expo.dev/push-notifications/overview/) to understand the basics of push notifications.
 Make sure to manage your accessToken securely in production environments.
