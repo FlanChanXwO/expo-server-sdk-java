@@ -3,7 +3,7 @@
 A powerful and flexible Java SDK for Expo push notifications, designed for developers. Supports both sending
 notifications and querying receipts. Easy to integrate and extend.
 
-**Language: [简体中文(Chinese)](README_zh.md)**
+**Language: [简体中文(Chinese)](readme_zh.md)**
 
 ---
 
