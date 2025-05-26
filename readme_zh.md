@@ -1,3 +1,5 @@
+![license](https://img.shields.io/badge/license-MIT-blue.svg)
+[![author](https://img.shields.io/badge/author-FlanChanOwO-orange.svg)](https://www.cirno.asia)
 # expo-server-sdk-java
 
 一个强大、灵活的 Java Expo 推送通知服务端 SDK，专为开发者设计，支持同步推送与回执查询，易于集成和扩展。
@@ -106,7 +108,3 @@ client.getPushNotificationReceipts(Arrays.asList("receipt-id-1", "receipt-id-2")
 使用该SDK前请先阅读 Expo 官方文档，了解推送通知的基本概念和要求。\
 https://docs.expo.dev/push-notifications/overview/ \
 生产环境请妥善管理 accessToken
-<hr>
-
-📄 License
-MIT License  
