@@ -25,7 +25,7 @@ Add the dependency in your Maven project:
 ```xml
 
 <dependency>
-    <groupId>com.github.flanchanowo</groupId>
+    <groupId>io.github.flanchanxwo</groupId>
     <artifactId>expo-server-sdk-java</artifactId>
     <version>0.1.0</version>
 </dependency>
@@ -36,7 +36,7 @@ Add the dependency in your Maven project:
 1. Create the client
 
 ```java
-import com.github.flanchanowo.ExpoPushNotificationClient;
+import io.github.flanchanxwo.ExpoPushNotificationClient;
 import org.apache.hc.client5.http.impl.classic.HttpClients;
 
 ExpoPushNotificationClient client = ExpoPushNotificationClient.builder()
@@ -48,7 +48,7 @@ ExpoPushNotificationClient client = ExpoPushNotificationClient.builder()
 2. Send a push notification
 
 ```java
-import com.github.flanchanowo.request.PushNotification;
+import io.github.flanchanxwo.request.PushNotification;
 
 import java.util.Arrays;
 

@@ -22,7 +22,7 @@ Maven 项目中添加依赖：
 ```xml
 
 <dependency>
-    <groupId>com.github.flanchanowo</groupId>
+    <groupId>io.github.flanchanxwo</groupId>
     <artifactId>expo-server-sdk-java</artifactId>
     <version>0.1.0</version>
 </dependency>
@@ -34,7 +34,7 @@ Maven 项目中添加依赖：
 1. 创建客户端
 
 ```java
-import com.github.flanchanowo.ExpoPushNotificationClient;
+import io.github.flanchanxwo.ExpoPushNotificationClient;
 import org.apache.hc.client5.http.impl.classic.HttpClients;
 
 ExpoPushNotificationClient client = ExpoPushNotificationClient.builder()
@@ -46,7 +46,7 @@ ExpoPushNotificationClient client = ExpoPushNotificationClient.builder()
 2. 发送推送通知
 
 ```java
-import com.github.flanchanowo.request.PushNotification;
+import io.github.flanchanxwo.request.PushNotification;
 
 import java.util.Arrays;
 
